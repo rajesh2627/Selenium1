@@ -16,7 +16,7 @@ public class TestSite {
 	public Alert alert; 
 	public boolean Result;
 	
-	@BeforeMethod
+	@BeforeMethod //Launching the url
 	public void Login(){
 		System.setProperty("webdriver.gecko.driver","C:\\Selenium\\Gekodriver\\geckodriver.exe");
 		driver = new FirefoxDriver();
