@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestNG Param" >
+
+
+  
+  <test name="Group 1 Test" >
+  <groups>
+    <run>
+      <include name="high"/>
+    </run>
+  </groups>
+    <classes>
+       <class name="TestGroup1" ></class>
+    </classes>
+  </test>
+  
+  
+  
+ 
+   <test name="Group 2 Test" >
+   <groups>
+    <run>
+      <include name="med"/>
+    </run>
+  </groups>
+    <classes>
+       <class name="TestGroup2" ></class>
+    </classes>
+  </test>
+  
+</suite>
